@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "app/"
+        },
+        "files": [
+            "functions.php"
+        ]
+    },
+    "repositories": [
+        {"type": "composer", "url": "http://packagist.phpcomposer.com"},
+        {"packagist": false}
+    ]
+}
